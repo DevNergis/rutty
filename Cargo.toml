@@ -32,7 +32,7 @@ tokio-stream = "0.1.14"
 tokio-tungstenite = "0.18.0"
 tokio-util = "0.7.8"
 tower = { version = "0.4", features = ["util", "timeout"] }
-tower-http = { version = "0.4.0", features = ["fs", "trace"] }
+tower-http = { version = "0.6.8", features = ["fs", "trace"] }
 tracing = "0.1"
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
 
