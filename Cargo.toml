@@ -27,7 +27,7 @@ pty-process = { version = "0.3.0", features = ["async"] }
 rust-embed = { version = "6.6.1", features = ["debug-embed"] }
 serde = { version = "1.0.163", features = ["derive"] }
 thiserror = "1.0.40"
-tokio = { version = "1.0", features = ["full"] }
+tokio = { version = "1.49", features = ["full"] }
 tokio-stream = "0.1.14"
 tokio-tungstenite = "0.18.0"
 tokio-util = "0.7.8"
