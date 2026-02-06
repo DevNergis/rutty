@@ -24,7 +24,7 @@ futures-util = { version = "0.3", default-features = false, features = [
 headers = "0.3"
 mime_guess = "2.0.4"
 pty-process = { version = "0.3.0", features = ["async"] }
-rust-embed = { version = "6.6.1", features = ["debug-embed"] }
+rust-embed = { version = "8.11.0", features = ["debug-embed"] }
 serde = { version = "1.0.163", features = ["derive"] }
 thiserror = "1.0.40"
 tokio = { version = "1.0", features = ["full"] }
